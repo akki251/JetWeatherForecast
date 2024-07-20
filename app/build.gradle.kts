@@ -62,7 +62,7 @@ dependencies {
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
-    implementation(libs.androidx.material3)
+//    implementation(libs.androidx.material3)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -113,4 +113,6 @@ dependencies {
     annotationProcessor("androidx.room:room-compiler:$roomVers")
     ksp("androidx.room:room-compiler:$roomVers")
     implementation("androidx.room:room-ktx:$roomVers")
+    implementation("androidx.compose.material3:material3-android:1.2.1")
+
 }
