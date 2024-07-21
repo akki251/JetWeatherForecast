@@ -19,6 +19,7 @@ class WeatherRepository @Inject constructor(private val api: WeatherApi) {
             Log.d("ERROR_API", e.toString())
             return DataOrException(e = e)
 
+
         }
 
 

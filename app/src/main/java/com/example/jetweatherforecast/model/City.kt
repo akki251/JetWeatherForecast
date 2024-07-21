@@ -1,6 +1,6 @@
 package com.example.jetweatherforecast.model
 
-data class City(
+data class  City(
     val coord: Coord,
     val country: String,
     val id: Int,
