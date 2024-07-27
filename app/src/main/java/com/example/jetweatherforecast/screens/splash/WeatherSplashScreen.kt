@@ -34,6 +34,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.jetweatherforecast.navigation.WeatherScreens
+import com.example.jetweatherforecast.utils.AppFonts
 import kotlinx.coroutines.delay
 
 @Composable
@@ -77,7 +78,8 @@ fun WeatherSplashScreen(navController: NavController) {
             Text(
                 color = Color.White,
                 text = "From Clouds to Sun, Forecasting Fun",
-                style = MaterialTheme.typography.bodyLarge
+                style = MaterialTheme.typography.bodyLarge,
+                fontFamily = AppFonts
             )
         }
 
