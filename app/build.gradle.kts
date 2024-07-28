@@ -62,6 +62,7 @@ dependencies {
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
+    implementation(libs.androidx.navigation.compose)
 //    implementation(libs.androidx.material3)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
@@ -78,8 +79,9 @@ dependencies {
     implementation("com.google.dagger:hilt-android-gradle-plugin:$hiltVers")
     ksp("com.google.dagger:hilt-compiler:$hiltVers")
     ksp("androidx.hilt:hilt-compiler:1.1.0") // 1.0.0 in course
-    implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
+    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
     //hilt nav above was 1.0.0-alpha03 in vid
+
 
     //material icons
     implementation("androidx.compose.material:material-icons-extended:1.5.4")
